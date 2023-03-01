@@ -15,6 +15,8 @@ gem "puma", "~> 5.0"
 # Ruby static code analyzer (a.k.a. linter)
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+gem 'rack-cors'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
