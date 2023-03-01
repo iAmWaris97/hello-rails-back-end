@@ -11,11 +11,12 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello Rails/React ](#-hello-railsreact-)
+- [📖 Hello Rails Backend ](#-hello-rails-backend-)
   - [🛠 Built With ](#-built-with-)
     - [Ruby on Rails and React ](#ruby-on-rails-and-react-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [🔗 Link to the front-end app ](#-link-to-the-front-end-app-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -31,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails/React <a name="about-project"></a>
+# 📖 Hello Rails Backend <a name="about-project"></a>
 
-**Hello-Rails-React** is an implementation of Rails and React in a single app.
+**Hello-Rails-Back-End** is a Rails API app which will serve as API for the [hello-react-front-end](https://github.com/iAmWaris97/hello-react-front-end) project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,7 +43,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">RoR Views and React</a></li>
+    <li><a href="https://rubyonrails.org/">RoR Views</a></li>
   </ul>
 </details>
 
@@ -64,9 +65,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Displaying a random message**
-- **Implementation of React inside rails app**
-- **Using webpack for bundling**
+- **Providing Random greeting messages to the React app**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,6 +74,10 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - Not available 🙅
+
+## 🔗 Link to the front-end app <a name="link-to-front"></a>
+
+- [hello-react-front-end](https://github.com/iAmWaris97/hello-react-front-end)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,23 +100,19 @@ In order to run this project you need to:
 Clone this repository to your desired folder:
 
 ```sh
- git clone https://github.com/iAmWaris97/hello-rails-react.git
+ git clone https://github.com/iAmWaris97/hello-rails-back-end.git
 ```
 
 Move inside the directory:
 
 ```sh
- cd hello-rails-react
+ cd hello-rails-back-end
 ```
 
 ### Install
 
 ```sh
  bundle install
-```
-
-```sh
-  rails javascript:install:webpack
 ```
 
 ### Usage
@@ -133,10 +132,10 @@ To run the project, execute the following commands:
 ```
 
 ```sh
- bin/dev
+ rails server
 ```
 
-Open the app on http://localhost:3000/
+Open the app on http://localhost:4000/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,9 +155,7 @@ Open the app on http://localhost:3000/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add new models**
-- [ ] **Add new controllers**
-- [ ] **Add new views**
+- [ ] **Add more endpoints**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +191,7 @@ Thanks to anyone whose code/recommendation/documentation was helpful getting thi
 
 - **What is this app about?**
 
-  - This app is an implementation of the React inside Rails as a single app.
+  - This app is an API app which will provide random messages to a separate React app.
 
 - **What are the technologies used building this app?**
 
